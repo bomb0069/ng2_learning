@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './share/header/header.component';
 import { FooterComponent } from './share/footer/footer.component';
+import { ListingDataComponent } from './listing-data/listing-data.component';
+import { CoursesListingComponent } from './courses-listing/courses-listing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ListingDataComponent,
+    CoursesListingComponent
   ],
   imports: [
     BrowserModule,
